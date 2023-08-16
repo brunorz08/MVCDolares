@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Dollar Information";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página en blanco</title>
+    <link rel="stylesheet" href="~/css/estilos.css">
+</head>
+<body>
+    
+    <div class="title">
+        <p>COTIZACIÓN DOLARES</p>
+ 
+    </div>
+   
+    
+  
+    <div class="cotizaciones">
+    <div class="containerdolares">
+    <div class="container">
+        <label class="titledolar">Dolar Oficial</label>
+        <hr />
+        <label class="titleventa">Venta</label>
+        <br />
+        <label class="valorventa"> $@ViewBag.Dolar.oficial.value_sell.ToString("F2")</label>
+        <br />
+        <label class="titlecompra">Compra</label>
+        <br />
+        <label class="valorcompra"> $@ViewBag.Dolar.oficial.value_buy.ToString("F2")</label>
+          
+    </div>
+
+    <div class="container">
+        <label class="titledolar">Dolar Blue</label>
+        <hr />
+        <label class="titleventa">Venta</label>
+        <br />
+        <label class="valorventa"> $@ViewBag.Dolar.blue.value_sell.ToString("F2")</label>
+        <br />
+        <label class="titlecompra">Compra</label>
+        <br />
+        <label class="valorcompra"> $@ViewBag.Dolar.blue.value_buy.ToString("F2")</label>
+    </div>
+    </div>
+    <div class="containereuro">
+
+    <div class="container">
+        <label class="titledolar">Euro Oficial</label>
+        <hr />
+        <label class="titleventa">Venta</label>
+        <br />
+        <label class="valorventa"> $@ViewBag.Dolar.oficial_euro.value_sell.ToString("F2")</label>
+        <br />
+        <label class="titlecompra">Compra</label>
+        <br />
+        <label class="valorcompra"> $@ViewBag.Dolar.oficial_euro.value_buy.ToString("F2")</label>
+    </div>
+
+    <div class="container">
+        <label class="titledolar">Euro Blue</label>
+        <hr />
+        <label class="titleventa">Venta</label>
+        <br />
+        <label class="valorventa"> $@ViewBag.Dolar.blue_euro.value_sell.ToString("F2")</label>
+        <br />
+        <label class="titlecompra">Compra</label>
+        <br />
+        <label class="valorcompra"> $@ViewBag.Dolar.blue_euro.value_buy.ToString("F2")</label>
+    </div>
+
+        </div>
+        <div class="update">
+            <label>Ultima actualización</label>
+            <label> @ViewBag.Dolar.last_update</label>
+        </div>
+    </div>
+
+  
+</body>
+</html>
+
+
+
+
+
+

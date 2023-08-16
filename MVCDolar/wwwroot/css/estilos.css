@@ -1,0 +1,89 @@
+﻿.title {
+    border-radius: 10px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+    .title p {
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        color: dodgerblue; /* Color celeste */
+
+    }
+
+.update {
+  
+}
+
+
+.container {
+    border: 1px solid #ccc;
+    width: 170px;
+    background-color: black;
+    border-radius: 10px; /* Ajusta este valor según desees la curvatura de los bordes */
+    padding: 20px; /* Espaciado interno para el contenido */
+    color: white; /* Color del texto */
+    opacity: 0.9;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.update {
+    background-color: black;
+    opacity: 0.9;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+
+.containerdolares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containereuro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: darkslategray;
+}
+
+.container .titlecompra {
+    font-size: 18px;
+}
+
+.container .titleventa {
+    font-size: 27px;
+}
+
+.container .titledolar {
+    font-size: 30px;
+}
+
+.valorventa {
+    font-size: 25px;
+}
+
+.valorcompra {
+    font-size: 20px;
+}
