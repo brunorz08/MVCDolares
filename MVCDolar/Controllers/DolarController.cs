@@ -16,17 +16,14 @@ namespace MVCDolar.Controllers
 
         public async Task<IActionResult> Index()
         {
-           // List<Casas2> casaList = await API.ObtenerCasas();
+           List<Casas2> casaList = await API.ObtenerCasas();
             Dolares dolar = await API.ObtenerDolares();
-            // ViewBag.CasasList = casaList;
+            ViewBag.CasasList = casaList;
             ViewBag.Dolar = dolar;
 
             return View();
         }
 
-        public ActionResult Conversor()
-        {
-            return View("Conversor"); // "Conversor" es el nombre de la vista
-        }
+      
     }
 }

@@ -37,17 +37,45 @@
           
     </div>
 
-    <div class="container">
-        <label class="titledolar">Dolar Blue</label>
-        <hr />
-        <label class="titleventa">Venta</label>
-        <br />
-        <label class="valorventa"> $@ViewBag.Dolar.blue.value_sell.ToString("F2")</label>
-        <br />
-        <label class="titlecompra">Compra</label>
-        <br />
-        <label class="valorcompra"> $@ViewBag.Dolar.blue.value_buy.ToString("F2")</label>
-    </div>
+            <div class="container">
+                <label class="titledolar">Dolar Blue</label>
+                <hr />
+                <label class="titleventa">Venta</label>
+                <br />
+                <label class="valorventa"> $@ViewBag.Dolar.blue.value_sell.ToString("F2")</label>
+                <br />
+                <label class="titlecompra">Compra</label>
+                <br />
+                <label class="valorcompra"> $@ViewBag.Dolar.blue.value_buy.ToString("F2")</label>
+            </div>
+
+            <div class="container">
+                <label class="titledolar">Dolar CCL</label>
+                <hr />
+                <label class="titleventa">Venta</label>
+                <br />
+                <label class="valorventa"> $@ViewBag.CasasList[3].casa.venta.ToString()</label>
+                <br />
+                <label class="titlecompra">Compra</label>
+                <br />
+                <label class="valorcompra"> $@ViewBag.CasasList[3].casa.compra.ToString()</label>
+
+            </div>
+
+            <div class="container">
+                <label class="titledolar">Dolar MEP</label>
+                <hr />
+                <label class="titleventa">Venta</label>
+                <br />
+                <label class="valorventa"> $@ViewBag.CasasList[4].casa.venta.ToString()</label>
+                <br />
+                <label class="titlecompra">Compra</label>
+                <br />
+                <label class="valorcompra"> $@ViewBag.CasasList[4].casa.compra.ToString()</label>
+
+            </div>
+
+
     </div>
     <div class="containereuro">
 

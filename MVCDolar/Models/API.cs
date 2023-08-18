@@ -10,7 +10,7 @@ namespace APIDolar.Models
 {
     public class API
     {
-        /*public static async Task<List<Casas2>> ObtenerCasas()
+        public static async Task<List<Casas2>> ObtenerCasas()
         {
             using (HttpClient client = new HttpClient())
             {
@@ -31,7 +31,7 @@ namespace APIDolar.Models
                 return casaList;
             }
         }
-        */
+        
 
 
 

@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\MVCDolar\\MVCDolar\\MVCDolar.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Bruno\\MVCDolar\\MVCDolar\\MVCDolar.csproj",
       "projectName": "MVCDolar",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\MVCDolar\\MVCDolar\\MVCDolar.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Bruno\\MVCDolar\\MVCDolar\\MVCDolar.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\MVCDolar\\MVCDolar\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Bruno\\MVCDolar\\MVCDolar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
